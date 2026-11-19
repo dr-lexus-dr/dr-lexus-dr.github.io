@@ -7,3 +7,6 @@
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
 
 .technologies{gap:12px 18px}.technology{display:inline-flex;align-items:center;gap:9px;font-size:12px;font-weight:600;padding:9px 12px;background:var(--bg);border:1px solid var(--line);border-radius:8px}.technology img{width:32px;height:32px;object-fit:contain}.project-heading h3{display:flex;align-items:center;gap:10px}.project-icon{object-fit:contain;flex-shrink:0}
+
+/* Recognisable full-colour technology logos, matching the profile reference. */
+.technologies{gap:20px 24px;align-items:start}.technology{display:flex;flex-direction:column;gap:9px;padding:0;background:none;border:0;border-radius:0;font-size:11px;color:var(--muted);min-width:60px}.technology img{width:52px;height:52px;object-fit:contain}.technology:hover img{transform:translateY(-2px)}.technology img{transition:transform .15s ease}@media(max-width:420px){.technologies{gap:20px}.technology{min-width:56px}}
